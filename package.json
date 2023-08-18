@@ -1,0 +1,19 @@
+{
+  "name": "namste-react",
+  "version": "1.0.0",
+  "description": "Namste React Learning",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaitanya-salla/namste-react.git"
+  },
+  "author": "Chaithanya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaitanya-salla/namste-react/issues"
+  },
+  "homepage": "https://github.com/chaitanya-salla/namste-react#readme"
+}
