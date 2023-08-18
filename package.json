@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/chaitanya-salla/namste-react/issues"
   },
-  "homepage": "https://github.com/chaitanya-salla/namste-react#readme"
+  "homepage": "https://github.com/chaitanya-salla/namste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
 }
