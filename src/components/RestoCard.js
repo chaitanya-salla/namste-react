@@ -1,6 +1,6 @@
 const RestoCard = (props) => {
   return (
-    <div className="resto-card" key={props.data?.info.id}>
+    <div className="resto-card" key={props.data.info.id}>
       <div className="img-container">
         <img
           src={

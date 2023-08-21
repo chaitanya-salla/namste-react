@@ -18,10 +18,6 @@ const Header = () => {
           <nav className="navbar">
             <ul>
               <li>
-                <a href="">Search</a>
-              </li>
-
-              <li>
                 <a href="">Offers</a>
               </li>
               <li>

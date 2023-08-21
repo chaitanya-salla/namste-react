@@ -36,7 +36,9 @@
   padding: 0 20px;
 }
 
-.resto-container {
+.resto-container,
+.shimmer-container,
+.banner {
   max-width: 1500px;
   margin: 20px auto;
   display: flex;
@@ -77,4 +79,16 @@ h3,
 h4 {
   color: white;
   font-weight: 500;
+}
+
+.shimmer-card {
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+
+.banner button,
+input {
+  padding: 0.5rem;
 }
