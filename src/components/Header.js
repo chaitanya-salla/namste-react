@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { LOGO_URL } from "../utils/constants";
 
 const Header = () => {
@@ -6,29 +7,29 @@ const Header = () => {
       <div className="nav-container">
         <header className="header">
           <div className="logo">
-            <a href="#" className="logo__logo">
+            <Link to="/" className="logo__logo">
               <img src={LOGO_URL} alt="100" width="70" height="70" />
-            </a>
+            </Link>
             <div className="search">
-              <a href="#" className="logo__home">
+              <Link to="/" className="logo__home">
                 Home
-              </a>
+              </Link>
             </div>
           </div>
           <nav className="navbar">
             <ul>
               <li>
-                <a href="">Offers</a>
+                <Link to="/">Offers</Link>
               </li>
               <li>
-                <a href="">Help</a>
+                <Link to={"/help"}>Help</Link>
               </li>
 
               <li>
-                <a href="">User</a>
+                <Link to="/">Chaitha...</Link>
               </li>
               <li>
-                <a href="">Cart</a>
+                <Link to="/">Cart</Link>
               </li>
             </ul>
           </nav>
